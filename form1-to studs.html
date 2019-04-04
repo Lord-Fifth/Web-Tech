@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<title>Student profile</title>
+</head>
+<body>
+<p>
+<h1>SCT College of Engineering</h1><br />
+<h2>Student Profile</h2>
+</p>
+<p>
+<form action="">
+<h4>Name </h4>
+<input type="text" name="firstname"  />  
+
+<h4>Address </h4>
+<input type="text" name="Address"  />
+
+<h4>Date of Birth </h4>
+<input type="text" name="DOB"  />
+<br />
+</p>
+<br />
+<p>
+<h4> Branch of Study</h4>
+<input type="radio" name="Branch" value="cse"> Computer Science and Engineering
+<br />
+<input type="radio" name="Branch" value="me"> Mechanical Engineering
+<br />
+<input type="radio" name="Branch" value="ece"> Electronics and Communication Engineering
+<br />
+</p>
+<br />
+<br />
+<table border="border"
+  <caption> <h4>Present Academic Details </h4></caption>
+   <tr>
+      <th> <h5>Overall CGPA </h5></th>
+      <td> <select name="cgpa" >
+             <option>A+</option>
+             <option> A</option>
+             <option>B+</option>
+             <option>B</option>
+             <option>C</option>
+             <option>F</option>
+            </select>
+
+   </td>
+    </tr>
+   <tr>
+      <th> <h5>Total backlog </h5> </th>
+      <td> <select name="bklg" >
+             <option>10</option>
+             <option> 9</option>
+             <option>8</option>
+             <option>7</option>
+             
+            </select>
+
+   </td>
+    </tr>
+
+
+<tr>
+      <th> <h5> Electve I </h5> </th>
+      <td> <input type="radio" name="elective" value="NLP" checked="checked" /> Natural language processing 
+            <input type="radio" name="elective" value="wt" /> Web Technology
+            <input type="radio" name="elective" value="ip" />Image Processing
+</td>
+    </tr>
+
+
+<tr>
+      <th> <h5> Electve II </h5> </th>
+      <td> <input type="radio" name="elective2" value="Nn" checked="checked" /> Neural Networks 
+            <input type="radio" name="elective2" value="ml"  /> Machine learning
+            <input type="radio" name="elective2" value="is" />Information Security
+</td>
+    </tr>
+
+<tr>
+      <th> <h5> Areas of Interest </h5> </th>
+      <td> <input type="checkbox" name="aoi" value="cv" checked="checked" /> Computer vision
+            <input type="checkbox" name="aoi" value="ds" /> Data Science
+            <input type="checkbox" name="aoi" value="ct" />Complexity Theory
+            <input type="checkbox" name="aoi" value="ct" />Game theory
+</td>
+    </tr>
+
+
+</table>	
+
+<br />
+<br />
+<input type="submit"  value="Submit"/>
+<input type="reset" value="Reset"/>
+
+</form>
+</p>
+</body>
+</html> 
