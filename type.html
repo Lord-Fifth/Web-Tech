@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Time</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+
+            var today = new Date();
+
+            var datestring=today.toLocaleString();
+            var day=today.getDay();
+            var month=today.getMonth();
+            var year= today.getFullYear();
+            var timeMilliseconds=today.getTime();
+            var hour=today.getHours();
+            var minute=today.getMinutes();
+            var second=today.getSeconds();
+            var millisecond=today.getMilliseconds();
+
+          
+            document.write("The Time is ",today,"<br/>");
+            document.write("The Date is ",datestring,"<br/>");
+            document.write("The Day is ",day,"<br/>");
+            document.write("The Month is ",month,"<br/>");
+            document.write("The Year is ",year,"<br/>");
+            document.write("The Time in milliseconds is ",timeMilliseconds,"<br/>");
+            document.write("The Hour is ",hour,"<br/>");
+            document.write("The Minute is ",minute,"<br/>");
+            document.write("The Second is ",second,"<br/>");
+            document.write("The Millisecond is ",millisecond,"<br/>");
+
+        </script>
+    </body>
+</html>
