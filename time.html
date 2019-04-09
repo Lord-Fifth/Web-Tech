@@ -30,6 +30,15 @@
             document.write("The Second is ",second,"<br/>");
             document.write("The Millisecond is ",millisecond,"<br/>");
 
+            var my_car=new Object();
+            var my_car={make: "Jaguar",model: "XF"};
+            my_car.engine=new Object();
+            my_car.engine.version="v8";
+            my_car.engine.hp="184";
+            for(var prop in my_car)
+                document.write("Name:",prop,"   Value:",my_car[prop],"<br />");
+            delete my_car.model;
+
         </script>
     </body>
 </html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Time</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var dum1=1.00149265, product=1;     //Time a loop
+            var start=new Date();
+
+            for(var count=0;count<1000;count++)
+                product = product+1.000002*dum1/1.00001;
+            
+            var end=new Date();
+            var diff=end.getTime()-start.getTime();
+            document.write("<br/>The loop took "+diff+" milliseconds <br/>");
+        </script>
+    </body>
+</html>
